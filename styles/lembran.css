@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2021/02/13003159/Studio-Ghibli.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.lem{
+    position: absolute;
+}
+
+#lembran1{
+    width: 200px;
+    height: 200px;
+    margin: 630px 720px 0px 0px;
+}
+
+#lembran2{
+    width: 200px;
+    height: 100px;
+    margin: 0px 256px 192px 0px;
+}
+
+#lembran3{
+    width: 100px;
+    height: 100px;
+    margin: 156px 0px 0px 144px;
+}
+
+#lembran4{
+    width: 200px;
+    height: 400px;
+    margin: 292px 0px 0px 719px;
+}
+
+#off{
+    opacity: 0;
+}
+
+#on{
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.47);
+}

@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://i9y6u9u4.stackpathcdn.com/wp-content/uploads/2021/09/Studio-Ghibli_Studio-Ghibli.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#off{
+    opacity: 0;
+    width: 472px;
+    height: 200px;
+    margin: 669px 0px 0px 232px;
+}
+
+#on{
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+.Mensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1300px;
+    height: 800px;
+    background-color: rgb(211, 226, 255);
+    transition: all 0.4s;
+    padding: 60px;
+    box-sizing: border-box;
+    font-size: 27pt;
+}
+
+.Mensagem > p{
+    color: #000;
+    font-style: italic;
+    font-weight: 400;
+}

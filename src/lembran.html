@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembranças</title>
+
+    <link rel="stylesheet" href="../styles/lembran.css">
+</head>
+<body>
+    <div class="lem" id="lembran1"></div>
+
+    <div class="lem" id="lembran2"></div>
+    
+    <div class="lem" id="lembran3"></div>
+
+    <div class="lem" id="lembran4"></div>
+
+    <div id="off">
+        <img src="" id="img">
+    </div>
+
+    </div>
+    <script>
+        Array.from(document.getElementsByClassName("lem")).forEach(lem => {
+            lem.addEventListener("click", function(){
+                console.log(lem.id)
+                if(lem.id == "lembran1"){
+                    document.getElementById("img").src = "../img/foto1.jpeg"
+                }else if(lem.id == "lembran2"){
+                    document.getElementById("img").src = "../img/foto2.jpeg"
+                }else if(lem.id == "lembran3"){
+                    document.getElementById("img").src = "../img/foto3.jpeg"
+                }else if(lem.id == "lembran4"){
+                    document.getElementById("img").src = "../img/foto4.jpeg"
+                }
+                document.getElementById("off").id = "on"
+                
+            })
+        });
+    </script>
+</body>
+</html>
+
